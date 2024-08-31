@@ -21,4 +21,4 @@ if (operacion.toLowerCase() === 'registrar') {
       }
     } else {
       console.log(`No existe la operacion "${operacion}". Operaciones exsistentes: "registrar" y "leer".`);
-    }
+    };
