@@ -1,6 +1,30 @@
 [
-{"nombreMascota":"Yuki","edad":"4 años","tipoAnimal":"gato","colorAnimal":"blanco","enfermedad":"vomitos"},
-{"nombreMascota":"Haru","edad":"2 años","tipoAnimal":"pajaro","colorAnimal":"blanco y amarillo","enfermedad":"fractura"},
-{"nombreMascota":"Mikaru","edad":"1 año","tipoAnimal":"gato","colorAnimal":"blanco","enfermedad":"letárgico"},
-{"nombreMascota":"Lilly","edad":"13 años","tipoAnimal":"perro","colorAnimal":"negro y blanco","enfermedad":"falta de apetito"}
+{
+  "nombre":"Yuki",
+  "edad":"4 años",
+  "tipo":"gato",
+  "color":"blanco",
+  "enfermedad":"vomitos"
+},
+{
+  "nombre":"Haru",
+  "edad":"2 años",
+  "tipo":"pajaro",
+  "color":"blanco y amarillo",
+  "enfermedad":"fractura"
+},
+{
+  "nombre":"Mikaru",
+  "edad":"1 año",
+  "tipo":"gato",
+  "color":"blanco",
+  "enfermedad":"letárgico"
+},
+{
+  "nombre":"Lilly",
+  "edad":"13 años",
+  "tipo":"perro",
+  "color":"negro y blanco",
+  "enfermedad":"falta de apetito"
+}
 ]
