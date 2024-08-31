@@ -4,7 +4,7 @@
     try {
       return JSON.parse(fs.readFileSync('citas.json', 'utf8'));
     } catch (error) {
-      console.error('Error al leer el archivo de citas:' error.message);
+      console.error('Error al leer el archivo de citas:', error.message);
       return [];
     }
   };
@@ -48,9 +48,9 @@ const leer = () => {
        Enfermedad: ${enfermedad}`);
         });
     }
-});
+};
 
-module.exports = {registrar, leer});
+module.exports = {registrar, leer};
 
 
 
