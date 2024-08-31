@@ -6,7 +6,7 @@ if (operacion.toLowerCase() === 'registrar') {
   if (nombre && edad && animal && color && enfermedad) {
     try { 
         registrar(nombre, edad, animal, color, enfermedad);
-        console.log('Registro exitoso!')
+        console.log('Registro exitoso!');
     } catch (error) {
       console.error('Error al registrar:', error.message);
       }
