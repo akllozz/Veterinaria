@@ -1,11 +1,11 @@
 const {registrar, leer} = require('./operaciones');
 
-const [operacion, nombre, edad, animal, color, enfermedad] = process.arvg.slice(2);
+const [operacion, nombre, edad, tipo, color, enfermedad] = process.arvg.slice(2);
 
 if (operacion.toLowerCase() === 'registrar') {
-  if (nombre && edad && animal && color && enfermedad) {
+  if (nombre && edad && tipo && color && enfermedad) {
     try { 
-        registrar(nombre, edad, animal, color, enfermedad);
+        registrar(nombre, edad, tipo, color, enfermedad);
         console.log('Registro exitoso!');
     } catch (error) {
       console.error('Error al registrar:', error.message);
