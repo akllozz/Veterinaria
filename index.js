@@ -11,7 +11,7 @@ if (operacion.toLowerCase() === 'registrar') {
       console.error('Error al registrar:', error.message);
       }
     } else {
-      console.log('Faltan datos para registrar su mascota.');
+      console.log('Faltan datos para registrar a su mascota.');
       }
     } else if (operacion.toLowerCase() === 'leer') {
         try {
@@ -20,5 +20,5 @@ if (operacion.toLowerCase() === 'registrar') {
         console.error('Error al leer:', error.message);
       }
     } else {
-      console.log('No existe la operacion "${operacion}". Operaciones exsistentes: "registrar" y "leer".');
+      console.log(`No existe la operacion "${operacion}". Operaciones exsistentes: "registrar" y "leer".`);
     }
