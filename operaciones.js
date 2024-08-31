@@ -9,8 +9,8 @@
     }
   };
 
-const registrar = (nombre, edad, animal, color, enfermedad) => {
-  if (!nombre || !edad || !animal || !color || !endermedad) {
+const registrar = (nombre, edad, tipo, color, enfermedad) => {
+  if (!nombre || !edad || !tipo || !color || !endermedad) {
     console.log('Todos los campos son obligatorios para registrar la cita.');
     return;
   }
@@ -18,12 +18,12 @@ const registrar = (nombre, edad, animal, color, enfermedad) => {
   conole.log(`Registrando los datos de su mascota:
     Nombre: ${nombre}
     Edad: ${edad}
-    Tipo de animal: ${animal}
+    Tipo de animal: ${tipo}
     Color: ${color}
     Enfermedad: ${enfermedad}`);
 
   const citas = citasJson();
-  citas.push({ nombre, edad, animal, color, enfermedad});
+  citas.push({ nombre, edad, tipo, color, enfermedad});
 
   try {
     fs.writeFileSync('citas.json', JSON.stringify(citas));
@@ -43,7 +43,7 @@ const leer = () => {
        ------------------------------
        Nombre del animal: ${nombre}
        Edad: ${edad}
-       Tipo de animal: ${animal}
+       Tipo de animal: ${tipo}
        Color de animal: ${color}
        Enfermedad: ${enfermedad}`);
         });
